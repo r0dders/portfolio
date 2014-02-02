@@ -159,7 +159,7 @@ class Login extends CI_Controller {
 	{
 
 		//unset the data array
-		unset($data);
+		// unset($data);
 
 		//get the helper functions to do the clever stuff
 		$this->load->helper(array('form', 'url'));
